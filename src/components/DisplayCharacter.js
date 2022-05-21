@@ -37,7 +37,7 @@ function DisplayCharacter() {
         </>
         : <h1>Character Loading...</h1>}
       <div className="card">
-        <h3 className="card-header-title large is-size-3"> Choose a new gender</h3>
+        <h3 className="card-header-title large is-size-3"> Choose a different gender:</h3>
         <div className="card-footer">
           <Link to="/displaycharacter/female" className="button is-warning is-large card-footer-item">
             Female
