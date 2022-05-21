@@ -16,12 +16,21 @@ function About() {
         <p>CSS packaged used: <a href="https://bulma.io">https://bulma.io</a></p>
       </section>
 
-      <section className="card aboutcard">
+      <div className="box aboutcard">
         <h2>Check out our other projects:</h2>
-        <p>Dimitar&rsquo; s GitHub page: <a href="https://github.com/Dumblevor">https://github.com/Dumblevor</a></p>
-        <p>Laleh&rsquo; s GitHub page: <a href="https://github.com/Laleh-S">https://github.com/Laleh-S</a></p>
-      </section>
-    </div>
+
+        <div className="box">
+          <p>Dimitar&rsquo; s Space Invaders (Project #1): <a href="https://dumblevor.github.io/spce_inv1/">Play it here.</a></p>
+
+          <p>Dimitar&rsquo; s GitHub page: <a href="https://github.com/Dumblevor">Link.</a></p>
+        </div>
+        <div className="box">
+          <p>Laleh&rsquo; s Pac-Man (Project #1): <a href="https://laleh-s.github.io/GA-Project-1/">Play it here.</a></p>
+
+          <p>Laleh&rsquo; s GitHub page: <a href="https://github.com/Laleh-S">Link.</a></p>
+        </div>
+      </div >
+    </div >
 
   )
 
