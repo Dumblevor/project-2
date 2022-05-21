@@ -6,7 +6,7 @@ function About() {
       <section className="card aboutcard">
         <h2>Creators</h2>
         <h3>This project was developed by Dimitar and Laleh as part of General Assembley's Software Engineering Immersive (SEI) coding bootcamp.</h3>
-        <p>Logo credit: <strong>Dimitar</strong></p>
+        <p>Logo credit: Dimitar</p>
       </section>
 
       <section className="card aboutcard">
