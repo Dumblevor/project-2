@@ -28,17 +28,18 @@ function Home() {
       </div>
       <section className="">
         <div >
-          <h2 className="hero container has-text-centered card-header mr-6 ml-6">How It Works</h2>
+          <h2 className="hero container has-text-centered ">How It Works</h2>
         </div>
         <div className="card level box media is-size-4 ml-6 mr-6">
           <div className="card-header level box">
-            <h3 className="subtitle"><strong>Step 1 - Chose your character</strong></h3>
+            <h3 className="subtitle"><strong>Step 1: </strong>
+               Chose a gender</h3>
           </div>
           <div className="card-header level box">
-            <h3 className="subtitle"><strong>Step 2 - View your character</strong></h3>
+            <h3 className="subtitle"><strong>Step 2: </strong>View a random character</h3>
           </div>
           <div className="card-header level box">
-            <h3 className="subtitle"><strong>Step 3 - Chose another character</strong></h3>
+            <h3 className="subtitle"><strong>Step 3: </strong> Chose another gender</h3>
           </div>
         </div>
       </section>

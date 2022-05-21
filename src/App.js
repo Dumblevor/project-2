@@ -20,8 +20,8 @@ function App() {
     </Router>
     <br/>
     <br/>
-    <footer className="content has-text-centered is-small has-background-dark">
-      <p >This website was developed by Laleh and Dimitar as part of SEI 23 (GA), Project #2: APIs.</p>
+    <footer className="content has-text-centered is-small">
+      <p >This website was developed by Laleh and Dimitar as part of SEI 23 (General Assembly), Project #2: APIs.</p>
     </footer>
   </>
   )
