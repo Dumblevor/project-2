@@ -5,9 +5,8 @@ function About() {
     <div className="container-about card ">
       <section className="card aboutcard">
         <h2>Creators</h2>
-        <h3>This project was developed by Dimitar and Laleh as part of General Assembley Softwear engineer bootcamp.</h3>
-        <p>Instructions by: <strong>Laleh</strong></p>
-        <p>Logo by: <strong>Dimitar</strong></p>
+        <h3>This project was developed by Dimitar and Laleh as part of General Assembley's Software Engineering Immersive (SEI) coding bootcamp.</h3>
+        <p>Logo credit: <strong>Dimitar</strong></p>
       </section>
 
       <section className="card aboutcard">
