@@ -9,7 +9,7 @@ function Navbar() {
         <nav className="navbar is-warning is-spaced has-shadow">
           <div className="container-nav ">
             <div className="navbar-brand">
-              <Link to="/"><img className="logo image image is-64x64" src={randomMorty2} /></Link>
+              <Link to="/"><img className="logo image image is-64x64 p-1" src={randomMorty2} /></Link>
               <Link to="/" className="navbar-item is-size-3 has-text-weight-bold ml-3">
                 Home
               </Link>

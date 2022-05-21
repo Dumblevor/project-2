@@ -9,9 +9,9 @@ function Home() {
       <div className="hero-wrapper card level box media">
         <div className=" hero container card-level is-size-4">
           <h1 className="card-header-title large is-size-3 ">Choose your character</h1>
-          <p className="card-header level box ">Your character will be randomly generated</p>
+          <p className="level">Your character will be randomly generated</p>
           <div className="">
-            <Link to="/displaycharacter/female" className="button is-warning is-large">
+            <Link to="/displaycharacter/female" className="button is-warning is-large shadow">
               Female
             </Link>
             <Link to="/displaycharacter/random" className="button is-danger is-large ">
