@@ -22,8 +22,8 @@ h1 {
   font-size: 2rem;
   letter-spacing: 0.9px;
   background: linear-gradient(90deg,
-    rgb(246, 174, 67) 100%,
-    rgba(249, 211, 180, 0) 100%);
+      rgb(246, 174, 67) 100%,
+      rgba(249, 211, 180, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -32,10 +32,10 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-    letter-spacing: 0.9px;
+  letter-spacing: 0.9px;
   background: linear-gradient(90deg,
-    rgb(246, 174, 67) 100%,
-    rgba(249, 211, 180, 0) 100%);
+      rgb(246, 174, 67) 100%,
+      rgba(249, 211, 180, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,6 +49,12 @@ h2 {
   padding: 20px;
 }
 
+.image  {
+  border-radius: 15px;
+}
+.aboutcard {
+  border-radius: 15px;
+}
 
 .hero-wrapper {
   display: flex;
@@ -68,7 +74,6 @@ h2 {
   justify-content: center;
   height: 160px;
   margin: 30px;
-  background-color: rgb(213, 211, 211);
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -82,10 +87,5 @@ footer {
   color: grey;
   letter-spacing: 0.9px;
 }
-
-// $footer-background-color: #363636;
-// $footer-background-color: #c02626;
-// $footer-padding: 2rem 1.5rem;
-// $box-padding: 1rem;
 
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
