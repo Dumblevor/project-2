@@ -33,7 +33,7 @@ function Home() {
         <div className="card level box media is-size-4 ml-6 mr-6">
           <div className="card-header level box">
             <h3 className="subtitle"><strong>Step 1: </strong>
-               Chose a gender;</h3>
+              Chose a gender;</h3>
           </div>
           <div className="card-header level box">
             <h3 className="subtitle"><strong>Step 2: </strong>View a random character;</h3>
