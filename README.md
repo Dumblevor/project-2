@@ -1,9 +1,7 @@
 
 ## Random Character from Rick & Morty
-<div style="text-align:center"><img src="./src/assets/RandomMORTY-2.gif" alt="Rick and morty cucumber logo" style="border-radius:20%" width="200"/>
-</div>
 
-## Overview
+### Overview
 
 This is the second project of the software engineering immersive course at General Assembly London. The assignment was to **build a React application** that consumes a **public API**. The project was to be completed in a **group of 2** within **5** over 2 weeks.
 My partner and I chose a Rick & Morty API whereas our site would request and display a random character dependant on the user gender selection. 
