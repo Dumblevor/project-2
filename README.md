@@ -25,11 +25,14 @@ Three buttons are available for selection and we have clear instructions underne
 
 ## Approach
 
-we wanted to make something simple, but yet fun so we decided on using a Rick & Morty API, inspired by the seriess :  https://rickandmortyapi.com.
+We wanted to make something simple, but yet fun so we decided on using a Rick & Morty API, inspired by the seriess :  https://rickandmortyapi.com.
 We decided on just 3 pages: a landing page, a display page and an about. 
+
 We used the react-router-dom Link elements as buttons to point different genders using a seperate component DisplayCharacter.js.
-That in turn uses the gender chosen to fetch random character from the API. 
-However, if random has been chosen - it will randomise between Female, Male, Genderless and Unknown and then fetch from the API.
+
+I took the lead on DisplayCharacter.js - it uses the gender chosen to fetch random character from the API. 
+Moreover, if random has been chosen - it will randomise between Female, Male, Genderless and Unknown and then fetch from the API.
+
 The data from the response is then passed through via props to another component - Character.js, which gives the data structure. 
 We decided to learn about Bulma na use it for styling this project, which seemed appropriate given the theme. 
 
