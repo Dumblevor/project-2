@@ -7,7 +7,7 @@ This is the second project of the software engineering immersive course at Gener
 My partner and I chose a Rick & Morty API whereas our site would request and display a random character dependant on the user gender selection. 
 
 
-Access [here](https://dumblevor.github.io/spce_inv1/).
+Access [here](https://rick-and-morty-randomizer.netlify.app).
 
 Preview: ![randomizer-preview](./readme_assets/preview_for_readme.png)
 
