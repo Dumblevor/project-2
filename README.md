@@ -3,8 +3,9 @@
 
 ### Overview
 
-This is the second project of the software engineering immersive course at General Assembly London. The assignment was to **build a React application** that consumes a **public API**. The project was to be completed in a **group of 2** within **5** over 2 weeks.
-My partner and I chose a Rick & Morty API whereas our site would request and display a random character dependant on the user gender selection. 
+This is the second project of the software engineering immersive course at General Assembly London. The assignment was to **build a React application** that consumes a **public API**.
+The project was to be completed in a **group of 2** within **5 days** over 2 weeks.
+My partner and I chose a Rick & Morty API whereas our site would request and display a random character depending on the user gender selection. 
 
 
 Access [here](https://rick-and-morty-randomizer.netlify.app).
@@ -24,10 +25,10 @@ Three buttons are available for selection and we have clear instructions underne
 
 ## Approach
 
-We wanted to make something simple, but yet fun so we decided on using a Rick & Morty API, inspired by the seriess :  https://rickandmortyapi.com.
+We wanted to make something simple, but yet fun so we decided on using a Rick & Morty API, inspired by the series :  https://rickandmortyapi.com.
 We decided on just 3 pages: a landing page, a display page and an about. 
 
-We used the react-router-dom Link elements as buttons to point different genders using a seperate component DisplayCharacter.js.
+We used the react-router-dom Link elements as buttons to point different genders using a separate component DisplayCharacter.js.
 
 I took the lead on DisplayCharacter.js - it uses the gender chosen to fetch random character from the API. 
 Moreover, if random has been chosen - it will randomise between Female, Male, Genderless and Unknown and then fetch from the API.
