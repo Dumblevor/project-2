@@ -25,16 +25,16 @@ Three buttons are available for selection and we have clear instructions underne
 
 ## Approach
 
-We wanted to make something simple, but yet fun so we decided on using a Rick & Morty API, inspired by the series :  https://rickandmortyapi.com.
-We decided on just 3 pages: a landing page, a display page and an about. 
+We wanted to make something simple, yet fun. We decided on using a Rick & Morty API, inspired by the series:  https://rickandmortyapi.com.
+We decided on 3 pages: a landing page, a display page and an about page. 
 
-We used the react-router-dom Link elements as buttons to point different genders using a separate component DisplayCharacter.js.
+We used the react-router-dom Link elements as buttons to point to different genders using a separate component DisplayCharacter.js.
 
-I took the lead on DisplayCharacter.js - it uses the gender chosen to fetch random character from the API. 
-Moreover, if random has been chosen - it will randomise between Female, Male, Genderless and Unknown and then fetch from the API.
+I took the lead on DisplayCharacter.js - it uses the gender chosen to fetch random characters from the API. 
+Moreover, if random has been chosen, it will randomise between Female, Male, Genderless and Unknown and then fetch from the API.
 
-The data from the response is then passed through via props to another component - Character.js, which gives the data structure. 
-We decided to learn about Bulma na use it for styling this project, which seemed appropriate given the theme. 
+The data from the response is then passed through, via props, to another component - Character.js, which gives the data structure. 
+We decided to learn about Bulma and uses it for styling this project, which seemed appropriate given the theme. 
 
 ## Timeline
 - Day 1 - Whiteboarding & pseudo
@@ -46,7 +46,7 @@ We decided to learn about Bulma na use it for styling this project, which seemed
 ![Miro-screenshot](./readme_assets/miro-screen.png)
 
 ### Character Page
-We also decided on providing the option for the user to choose a new gender as an extra feature.
+We also decided on providing extra buttons . That way the user to choose a new gender without having to go back. 
 ![Display_character-screen](./readme_assets/char_display_screen.png)
 
 
