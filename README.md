@@ -30,7 +30,7 @@ We decided on 3 pages: a landing page, a display page and an about page.
 
 We used the react-router-dom Link elements as buttons to point to different genders using a separate component DisplayCharacter.js.
 
-I took the lead on DisplayCharacter.js - it uses the gender chosen to fetch random characters from the API. 
+I took the lead on DisplayCharacter.js - it uses the gender chosen to fetch a random characters from the API. 
 Moreover, if random has been chosen, it will randomise between Female, Male, Genderless and Unknown and then fetch from the API.
 
 The data from the response is then passed through, via props, to another component - Character.js, which gives the data structure. 
